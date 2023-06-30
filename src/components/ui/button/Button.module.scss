@@ -1,0 +1,24 @@
+@use "assets/styles/utils" as *;
+
+.btn {
+  display: inline-grid;
+  background-color: $primary-color-light;
+  padding: 20px;
+  border-radius: 20px;
+  font-family: $font-family-primary;
+  font-size: clamp(1rem, 2.5vw, 1.3rem);
+  cursor: pointer;
+  border: none;
+
+  &.primary {
+    background-color: rgba($primary-color, 0%);
+    color: $primary-color;
+    transition: $primary-transition;
+    box-shadow: inset 0 0 0 1px $primary-color;
+
+    &:hover {
+      background-color: $primary-color;
+      color: $primary-color-light;
+    }
+  }
+}

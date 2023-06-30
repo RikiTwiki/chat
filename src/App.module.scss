@@ -1,0 +1,6 @@
+@use "./assets/styles/utils/" as *;
+
+.wrapper {
+  background: $primary-bg-linear;
+  height: 100vh;
+}

@@ -1,0 +1,13 @@
+@use "assets/styles/utils" as *;
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: $primary-gap + px;
+}
+
+.options {
+  display: flex;
+  gap: calc($primary-gap / 2) + px;
+  flex-wrap: wrap;
+}
